@@ -62,7 +62,7 @@ const ProductDetails = ({ product, products }) => {
                             {p.original_price && (
                                 <>
                                     <p className="text-base  font-medium line-through">
-                                        &#8377;{p.original_price}
+                                       {p.original_price}
                                     </p>
                                     <p className="ml-auto text-base font-medium text-green-500">
                                         {getDiscountedPricePercentage(
