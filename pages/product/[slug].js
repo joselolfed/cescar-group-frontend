@@ -87,10 +87,10 @@ const ProductDetails = ({ product, products }) => {
                             {/* HEADING START */}
                             <div className="flex justify-between mb-2">
                                 <div className="text-md font-semibold">
-                                    Select Size
+                                    Select Calibre
                                 </div>
                                 <div className="text-md font-medium text-black/[0.5] cursor-pointer">
-                                    Select Guide
+                                    Select Guia
                                 </div>
                             </div>
                             {/* HEADING END */}
